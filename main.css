@@ -1,0 +1,9 @@
+@font-face {
+	font-family: "Heebo";
+	src: url("/fonts/Heebo-Regular.ttf");
+	src: local('☺'), 
+	url("/fonts/Heebo-Regular.ttf") format("truetype"), 
+
+	font-weight: normal;
+	font-style: normal;
+}
