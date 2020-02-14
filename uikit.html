@@ -3,8 +3,36 @@
 <head>
 	<meta charset="UTF-8">
 	<title>UIKIT</title>
+	<link rel="stylesheet" href="main.css">
 </head>
 <body>
+	<div class="uikit">
+		<div class="left">
+			<p class="title">input</p>
+			<br><br>
+			<div class="inp_text_container error">
+				<input type="text" class="input_text" placeholder="Login">
+				<span class="error">Wrong password</span>
+			</div>
+			<br>
+			<div class="inp_text_container">
+				<input type="text" class="input_text" placeholder="Login">
+				<span class="error">Wrong password</span>
+			</div>
+		</div>
+		<div class="right">
+			<p class="title">button</p>
+			<br><br>
+			<input type="submit" class="input_submit" value="Log in">
+			<hr>
+			<input type="submit" class="input_submit disabled" value="Log in">
+			<hr>
+			<input type="submit" class="input_cancel" value="Cancel">
+			<hr>
+			<input type="submit" class="input_cancel disabled" value="Cancel">
+
+		</div>
+	</div>
 	
 </body>
 </html>
