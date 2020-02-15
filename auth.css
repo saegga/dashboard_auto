@@ -57,3 +57,9 @@ body{
     text-align: center;
     padding-top: 60px;
 }
+@media(max-width: 340px){
+    .auth_form{
+        width: 320px;
+        padding: 0 20px 20px 20px;
+    }
+}
