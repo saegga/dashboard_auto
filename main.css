@@ -57,6 +57,7 @@
 }
 body{
 	font-family: 'Heebo';
+	margin: 0;
 }
 p{
 	margin: 0;
@@ -161,6 +162,10 @@ p.title{
 	border: 1px solid #D3D2D5;
 	background: #fff;
 }
+
+/* auth */
+F8F7F8
+
 /* only in uikit */
 .uikit{
 	padding: 100px;
