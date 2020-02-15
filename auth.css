@@ -36,7 +36,24 @@ body{
 }
 .auth_form .inp_text_container.password{
 	position: relative;
+    margin-top: 30px;
 }
 .password-control{
 	position: absolute;
+    background: url(images/eyes.png);
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-position: -9px center;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 5px;
+}
+.password-control.show{
+    background-position: 43px center;
+}
+.auth_submit_container{
+    text-align: center;
+    padding-top: 60px;
 }
